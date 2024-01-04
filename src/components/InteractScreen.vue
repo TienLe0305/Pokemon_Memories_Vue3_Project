@@ -16,6 +16,7 @@
         :ref="`card-${index}`"
         :cardsContext="cardsContext"
         :imgBackFaceUrl="`${card}.png`"
+        :rules="rules"
         :card="{ index, value: card }"
         @onFlip="checkRule($event)"
       />
