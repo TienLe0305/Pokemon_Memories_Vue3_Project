@@ -14,6 +14,7 @@ export default {
       required: true,
     },
   },
+  //Hello
   methods: {
     onStartAgain() {
       this.$emit("onStartAgain");
